@@ -1,0 +1,20 @@
+{
+    "name": "3hush3/teb-chan",
+    "description": "Forum obrazkowe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "3HusH3\\TebChan\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maximilian Strunk",
+            "email": "maxi.overwatch.esport@gmail.com"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "smarty/smarty": "^5.4"
+    }
+}
